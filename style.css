@@ -1,0 +1,121 @@
+body{
+  margin:0px;
+  padding: 0px;
+  background-color: #556B2F
+}
+h1, h2,h3,p{
+  font-family: Verdana;
+}
+/*navigation bar*/
+.nav_bar {
+  overflow: hidden;
+  background-color: #1B3409;
+  position: fixed; /*moves with page*/
+  width: 100%; /* making it the full len of screen*/
+  top:0;
+  font-family: Verdana;
+}
+/*purring rihanna name at the top of the nav bar*/
+.name_nav{
+  position: absolute;
+  z-index: -1; /*bringing the words forward*/
+  float:left;
+  color:white;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+.nav_bar a { /*the text inside nav bar*/
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none; /*removing the line under*/
+  font-size: 20px;
+  margin-top: 0;
+}
+.nav_bar a:hover { /*when i hover over the word itll turn red*/
+  color: red
+
+}
+
+/* header stuff*/
+.header_container{
+  width:100%;
+  font-size: 40px;
+  text-align: left;
+  background-size: cover;
+  background-image: url("images/rihanna4.jpg");
+  height: 700px;
+  color: black;
+}
+.header_container p{ /*chnaging the <p> properties*/
+  font-size: 18px;
+  color:black;
+  padding-left: 50px;
+  font-weight: bold;
+  text-shadow: 2px 2px green;
+}
+.header_container h1{
+  padding-top: 20px;
+  padding-left: 50px;
+  text-shadow: -5px -5px green;
+}
+
+/*container settings*/
+
+.container{
+  padding: 50px;
+  background-color: white;
+  margin: auto;
+  width:80%;
+  border-color: black;
+}
+.side_bar{
+  width: 30%
+  color:white;
+  padd
+
+}
+/*about section, did a table instead, couldn't figure it out*/
+.about_img{
+  height: 400px;
+  width:350px;
+}
+.about_image{
+  float:left;
+}
+.about_text{
+  display: block;
+  padding: 10px;
+}
+.about_text p{
+  margin: 3px;
+  text-align: justify;
+}
+
+/*her music*/
+.album{ /*photo settings for album pics*/
+  height: 200px;
+  width:200px;
+  padding: 10px;
+}
+.music_top_row, .music_bottom_row, .music_middle_row{
+  text-align: center; /*making the pictures center*/
+}
+
+/*her ventures*/
+.fenbp, .fenfp, .savagep, .perfume{
+  height: 250px;
+  width: 250px;
+}
+.beauty_img_container, .fenty_fash_img_container, .savage_x_img_container,.perfume_img_container{
+  text-align: center;
+}
+footer{
+  padding: 10px;
+  background-color: #1B3409;
+  color: white;
+  text-align: center;
+  width: 100%
+
+}
